@@ -35,7 +35,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Selenium 4
-        System.setProperty("webdriver.chrome.driver", "/Users/karthikkk/ChromeDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         ChromeDriver chromeDriver = new ChromeDriver();
 
         DevTools chromeDevTools = chromeDriver.getDevTools();
