@@ -15,9 +15,15 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
+<<<<<<< Updated upstream
                   <source>1.8</source>
                   <target>1.8</target>
                  </configuration>
+=======
+                   <source>10</source>
+                   <target>10</target>
+                  </configuration>     
+>>>>>>> Stashed changes
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
